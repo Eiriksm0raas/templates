@@ -16,5 +16,5 @@ RUN cd .. &&\
 	nvim --headless "+Lazy! sync" +qa
 
 RUN mkdir -p /root/.config/nvim &&\
-	curl -L "https://raw.githubusercontent.com/Eiriksm0raas/templates/main/nvim/min.lua"\
+	curl -L "https://raw.githubusercontent.com/Eiriksm0raas/templates/main/nvim/cpp.lua"\
 	-o /root/.config/nvim/init.lua
