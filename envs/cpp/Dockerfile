@@ -3,7 +3,7 @@ WORKDIR /root/dev
 
 RUN apt-get update -y &&\
 	apt-get upgrade -y &&\
-	apt-get install -y curl g++ git ripgrep &&\
+	apt-get install -y curl git ripgrep unzip clang &&\
 	apt-get clean &&\
 	rm -rf /var/lib/apt/lists/*
 
