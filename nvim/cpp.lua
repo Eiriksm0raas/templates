@@ -117,7 +117,7 @@ require("lazy").setup({
 					"lua",
 					"vim",
 					"vimdoc",
-					"c++",
+					"cpp",
 				},
 				sync_install = false,
 				highlight = { enable = true },
