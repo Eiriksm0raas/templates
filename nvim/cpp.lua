@@ -149,7 +149,6 @@ require("lazy").setup({
 			lspz.ensure_installed({
 				"lua_ls",
 				"clangd",
-				"cmake-language-server"
 			})
 
 			-- Bindings for selecting suggestions
